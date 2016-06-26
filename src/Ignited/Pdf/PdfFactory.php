@@ -1,6 +1,6 @@
 <?php namespace Ignited\Pdf;
 
-use WkHtmlToPdf;
+use Pdf;
 
 class PdfFactory {
 
@@ -12,7 +12,8 @@ class PdfFactory {
 
 	public function make($options=array())
 	{
-		$wkhtml = new WkHtmlToPdf($this->config);
+		$wkhtml = new Pdf;
+		$wkhtml->setOptions($this->config);
 
 		if(!empty($options))
 		{
