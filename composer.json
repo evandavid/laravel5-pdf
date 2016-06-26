@@ -1,5 +1,5 @@
 {
-    "name": "lucasromanojf/laravel5-pdf",
+    "name": "evandavid/laravel5-pdf",
     "description": "Provides the HTML2PDF functionality using the wkhtmltopdf library (Laravel 5)",
     "keywords": ["pdf", "wkhtmltopdf", "laravel", "laravel5"],
     "license": "MIT",
@@ -13,6 +13,10 @@
             "name": "Lucas Romano",
             "email": "lucasromanojf@gmail.com",
             "role": "Port to Laravel 5"
+        },
+        {
+            "name": "Evan Kristian",
+            "email": "evkristian@gmail.com"
         }
     ],
     "require": {
